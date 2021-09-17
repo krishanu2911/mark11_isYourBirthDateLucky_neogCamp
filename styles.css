@@ -1,3 +1,62 @@
 h1{
-    color:tomato;
+    color:#EF4444;
+    margin: 0px;
+    padding: 2rem;
+    background-color: #FECACA;
+}
+.header{
+    text-align: center;
+}
+body{
+    margin: 0px;
+    display: block;
+}
+.dob-label{
+    padding: 2rem;
+    text-align: center;
+    
+}
+input{
+    padding: 1rem 2rem;
+    background-color: ;
+    border: solid #92400E;
+    background-color:  #FEE2E2;
+}
+.luck-div{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+label{
+    color: #92400E;
+    font-size: large;
+}
+.btn-div{
+    text-align: center;
+}
+.date-of-birth{
+    margin-top: 20px;
+}
+.lucky-number{
+    margin-top: 20px;
+}
+#check-button{
+  padding: 1rem 2rem;
+  font-size: large;
+  border: none;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  background-color: #FEE2E2;
+}
+.output-div{
+    text-align: center;
+   
+}
+#output-luck{
+    background-color: #F87171;
+    color: white;
+}
+.ending{
+    color: white;
+    background-color: #F87171;
+    padding: 2rem;
 }

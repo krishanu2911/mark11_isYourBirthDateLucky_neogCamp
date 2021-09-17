@@ -8,13 +8,22 @@ checkButton.addEventListener("click", checkbirthdateIsLucky);
 function checkbirthdateIsLucky() {
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
-  const number = luckyNumber.value;
-  if(sum%number === 0){
-      outputLuck.innerText = "lucky";
+  const number = Number(luckyNumber.value);
+  if(number >0){
+    if(sum%number === 0){
+      outputLuck.innerText = "Your BirthDate is Lucky 🥳";
   }else{
-    outputLuck.innerText = "not lucky";
+    outputLuck.innerText = "Your BirthDate is not lucky 😊 But you are awesome";
   }
 }
+
+ }
+  // if(sum%number === 0){
+  //     outputLuck.innerText = "lucky";
+  // }else{
+  //   outputLuck.innerText = "not lucky";
+  // }
+
 
 function calculateSum(dob) {
   dob = dob.replaceAll("-", "");
