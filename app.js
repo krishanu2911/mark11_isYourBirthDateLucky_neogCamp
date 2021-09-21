@@ -15,6 +15,8 @@ function checkbirthdateIsLucky() {
   }else{
     outputLuck.innerText = "Your BirthDate is not lucky 😊 But you are awesome";
   }
+}else{
+  outputLuck.innerText = "please give + ve lucky number";
 }
 
  }
